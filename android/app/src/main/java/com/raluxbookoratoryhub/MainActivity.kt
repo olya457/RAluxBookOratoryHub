@@ -1,4 +1,4 @@
-package com.raluxbookoratoryhub
+package com.raluxbook.oratoryhub
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
