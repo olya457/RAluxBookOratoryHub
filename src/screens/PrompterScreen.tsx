@@ -57,6 +57,11 @@ export function PrompterScreen({state}: ScreenProps): React.JSX.Element {
     setStage('reading');
   };
 
+  const restartReading = () => {
+    yRef.current = 0;
+    scrollRef.current?.scrollTo({y: 0, animated: true});
+  };
+
   const shareSession = () => {
     Share.share({
       title: activeText.title,
@@ -100,7 +105,7 @@ export function PrompterScreen({state}: ScreenProps): React.JSX.Element {
           </Text>
         </ScrollView>
         <View style={styles.readerControls}>
-          <Pressable onPress={() => scrollRef.current?.scrollTo({y: 0, animated: true})} style={styles.controlButton}>
+          <Pressable onPress={restartReading} style={styles.controlButton}>
             <Text style={styles.controlIcon}>↺</Text>
           </Pressable>
           <Pressable onPress={() => setPlaying(value => !value)} style={[styles.controlButton, styles.playButton]}>

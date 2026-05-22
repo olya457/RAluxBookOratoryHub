@@ -50,7 +50,7 @@ export function InfoCard({
           </Text>
         ) : null}
       </View>
-      {right ? <View style={styles.right}>{right}</View> : <Text style={[styles.chevron, compact && styles.chevronCompact, {color: toneColors[tone]}]}>›</Text>}
+      {right ? <View style={styles.right}>{right}</View> : onPress ? <Text style={[styles.chevron, compact && styles.chevronCompact, {color: toneColors[tone]}]}>›</Text> : null}
     </>
   );
   const cardStyle = [
