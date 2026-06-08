@@ -1,5 +1,5 @@
 export const colors = {
-  bg: '#0b0503',
+  bg: '#6b1c02ff',
   bgSoft: '#120804',
   header: '#170a05',
   panel: '#1a0d08',
@@ -16,10 +16,10 @@ export const colors = {
   goldSoft: '#8b7219',
   red: '#d3221c',
   green: '#27c34a',
-  text: '#f1dec3',
-  textBright: '#fff3df',
+  text: '#f2efecff',
+  textBright: '#f8f6f2ff',
   muted: '#9f7658',
-  dim: '#5d3a28',
+  dim: '#e9e4e2ff',
   blackGlass: 'rgba(0,0,0,0.42)',
   overlay: 'rgba(12,5,2,0.92)',
 };

@@ -1,4 +1,4 @@
-package com.raluxbook.oratoryhub
+package com.speaklikeapharaoh
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

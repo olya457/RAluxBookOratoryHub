@@ -1,4 +1,4 @@
-package com.raluxbook.oratoryhub
+package com.speaklikeapharaoh
 
 import android.app.Application
 import com.facebook.react.PackageList
